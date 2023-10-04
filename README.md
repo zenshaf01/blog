@@ -22,3 +22,6 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+$env:EDITOR="code --wait"
+bundle exec rails credentials:edit
