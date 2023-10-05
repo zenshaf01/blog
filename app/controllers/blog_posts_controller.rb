@@ -4,6 +4,7 @@ class BlogPostsController < ApplicationController
 
     def index
         @blog_posts = BlogPost.all
+        @pagy, @blog_posts = pagy(@blog_posts)
     end
 
     def show
